@@ -88,8 +88,11 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 3 code here*/
-  position: absolute;
+  position: relative;
   left:500px;
+  top:-40px;
+  text-decoration: none;
+  /* display: none; */
 }
 
 
@@ -161,10 +164,10 @@ img{
 }
 
 
-.text{
+div.text{
   justify-self: center;
   align-self: center;
-
+  margin:auto;
   max-height: 25vh;
   overflow: scroll;
 } 
