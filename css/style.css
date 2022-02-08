@@ -163,6 +163,9 @@ img{
   overflow: hidden;
 }
 
+footer a{
+  border: none;
+}
 
 div.text{
   justify-self: center;
@@ -213,6 +216,7 @@ div.text{
     grid-column:2/span 2;
   }
 }
+
 
 
 
