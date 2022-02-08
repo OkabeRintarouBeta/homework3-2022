@@ -80,7 +80,9 @@ nav a:hover{
   text-decoration-style: wavy;
 }
 
-
+body{
+  position:relative;
+}
 a.skip{
   background: white;
   padding: 6px;
@@ -88,9 +90,8 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 3 code here*/
-  position: relative;
+  position: absolute;
   left:500px;
-  top:-40px;
   text-decoration: none;
   /* display: none; */
 }
@@ -115,7 +116,7 @@ a:focus{
 .intro{
   /* The image used */
   background-image: url("../images/header.jpg");
-  background-color:#B3B3B3;
+  background-color:#DDDDDD, #858585, #707070,#B3B3B3;
   /* Set a specific height */
   min-height: 400px;
 
