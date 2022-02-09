@@ -91,7 +91,7 @@ a.skip{
   z-index: 1;
   /* Requirement 3 code here*/
   position: absolute;
-  left:500px;
+  left:-500px;
   text-decoration: none;
   /* display: none; */
 }
@@ -106,7 +106,7 @@ a:focus{
   /* Requirement 5 code here*/
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows:repeat(4,1fr);
+  /* grid-template-rows:repeat(4,1fr); */
   row-gap: 30px;
 }
 
@@ -116,7 +116,7 @@ a:focus{
 .intro{
   /* The image used */
   background-image: url("../images/header.jpg");
-  background-color:#DDDDDD, #858585, #707070,#B3B3B3;
+  background-color:#858585;
   /* Set a specific height */
   min-height: 400px;
 
