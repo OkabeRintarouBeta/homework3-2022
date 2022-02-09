@@ -116,7 +116,8 @@ a:focus{
 .intro{
   /* The image used */
   background-image: url("../images/header.jpg");
-  background-color:#858585;
+  background-color:#707070;
+  /* #DDDDDD, #858585, #707070, or #B3B3B3 */
   /* Set a specific height */
   min-height: 400px;
 
